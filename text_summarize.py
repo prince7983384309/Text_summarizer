@@ -5,10 +5,6 @@
 
 #####   First I am using NLTK   --------------------------------------------------------------------
 # Import libraries for NLTK
-import subprocess
-
-# Install NLTK using pip
-subprocess.run(['pip', 'install', 'nltk'])
 
 import nltk
 from nltk.corpus import stopwords
