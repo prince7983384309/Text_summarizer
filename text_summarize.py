@@ -5,6 +5,10 @@
 
 #####   First I am using NLTK   --------------------------------------------------------------------
 # Import libraries for NLTK
+! pip install nltk
+! pip install spacy
+! pip install streamlit
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
