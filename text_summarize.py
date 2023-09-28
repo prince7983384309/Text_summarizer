@@ -9,6 +9,8 @@ import subprocess
 
 # Install NLTK using pip within the Streamlit app
 subprocess.run(['pip', 'install', 'nltk'])
+nltk==3.8.1
+
 
 import nltk
 from nltk.corpus import stopwords
