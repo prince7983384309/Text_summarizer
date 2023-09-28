@@ -5,6 +5,10 @@
 
 #####   First I am using NLTK   --------------------------------------------------------------------
 # Import libraries for NLTK
+import subprocess
+
+# Install NLTK using pip within the Streamlit app
+subprocess.run(['pip', 'install', 'nltk'])
 
 import nltk
 from nltk.corpus import stopwords
